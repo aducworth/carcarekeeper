@@ -1,0 +1,12 @@
+{
+    "name": "austinducworth/carcarekeeper",
+    "authors": [
+        {
+            "name": "Austin Ducworth",
+            "email": "aducworth@gmail.com"
+        }
+    ],
+    "require": {
+	    "aducworth/edmunds-api-php": "1.0"
+    }
+}

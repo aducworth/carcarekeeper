@@ -1,9 +1,9 @@
 <?
 
-require_once( 'edmunds.php' );
-require_once( 'vehicle.php' );
+require_once __DIR__ . '/vendor/autoload.php';
+require 'config.php';
 
-$vehical_api = new VehicleApi;
+$vehical_api = new Aducworth\Edmunds\VehicleApi( $key );
 
 $service_plan = $vehical_api->getMaintenanceSchedule( $_POST['modelyear'] );
 
